@@ -5,6 +5,8 @@
   connection: local
   gather_facts: true
   run_once: true
+  collections:
+    - servicenow.servicenow
   vars_files:
     - group_vars/credentials.yml
 
